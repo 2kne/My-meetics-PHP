@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body
+{
+	padding: 0;
+	margin: 0;
+}
+
+
+.fond
+{
+	background-image: url("image/fond.jpg"); 
+	display: no-repeat;
+	height: 1080px;
+}
+
+.tmp
+{
+	padding-top: 1600px;
+}
+
+nav
+{
+	margin-right: 15%;
+	margin-left: 15%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+nav ul
+{
+	width: 45%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 7.5%;
+}
+
+a
+{
+	list-style-type: none;
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+	font-family: Montserrat;
+
+}
+
+li 
+{
+	list-style-type: none;
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+	font-family: Montserrat;
+}
+
+li:hover
+{
+	cursor: pointer;
+}
+
+ ul li
+ {
+ 	list-style: none;
+ }
+
+.btn_log_1
+{
+	border: solid 2px #ec4c4c;
+	border-radius: 6px;
+	background-color: #ec4c4c;
+	color: white;
+	font-family: Montserrat;
+	width: 30%;
+	height: 60%;
+	font-size: 22px;
+	padding: 2%;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.btn_log_2
+{
+	border: solid 2px #ec4c4c;
+	border-radius: 6px;
+	background-color: #ec4c4c;
+	color: white;
+	font-family: Montserrat;
+	width: 44%;
+	height: 100%;
+	font-size: 22px;
+	padding: 2%;
+	font-weight: 400;
+}
+
+.btn_log_1:hover
+{
+	border: solid 2px #BC7C16;
+	background-color: #BC7C16;
+	cursor: pointer;
+}
+
+.btn_log_2:hover
+{
+	border: solid 2px #BC7C16;
+	background-color: #BC7C16;
+	cursor: pointer;
+}
+
+.mid_btn
+{
+	display: flex;
+	flex-direction: row;
+	margin-right: auto;
+	margin-left: auto;
+	justify-content: space-around;
+	width: 20%;
+	margin-top: 150px;
+}
+
+.citation
+{
+	display: flex;
+	flex-direction: column;
+	margin-right: auto;
+	margin-left: auto;
+	justify-content: center;
+	width: 60%;
+	color: white;
+	font-size: 27px;
+	margin-top: 210px;
+	font-family: 'Montserrat';
+	font-style: italic;
+
+}
+
+q
+{
+	text-align: center;
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#inscription
+{
+	display: none;
+	flex-direction: row;
+	margin-right: auto;
+	margin-left: auto;
+	justify-content: space-around;
+	width: 30%;
+	margin-top: 5%;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+}
+
+form > .row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+	margin-bottom: 0.7em;
+}
+
+form > .row > label:first-of-type {
+	margin-right: 5em;
+}
+
+form
+{
+	color: white;
+	font-family: "Montserrat";
+	font-size: 20px;
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+form #prenom, #nom, #date_naissance, #mail, #pass, #pass_conf, select
+{
+	border-radius: 8px;
+	height: 30px;
+	font-size: 20px;
+	box-shadow: -1px 2px 5px 1px #BC7C16,
+            -1px 2px 20px grey inset;
+    font-family: "Montserrat";
+}
+
+form select
+{
+	width: 52.5%;
+	height: 35px;
+}
+
+#col
+{
+	flex-direction: column;
+}
+#femme
+{
+	margin-right: 50px;
+}
+
+#homme
+{
+	margin-right: 20px;
+}
+
+.btn_inscription
+{
+	border: solid 2px #ec4c4c;
+	border-radius: 6px;
+	background-color: #ec4c4c;
+	color: white;
+	font-family: Montserrat;
+	width: 23%;
+	display: flex;
+	justify-content: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 100px;
+	font-size: 23px;
+	padding: 1.5%;
+	font-weight: 400;
+}
+
+#connexion
+{
+	display: none;
+	flex-direction: row;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	margin-top: 12%; 
+}
+
+#mail_co, #pass_co
+{
+	border-radius: 8px;
+	height: 30px;
+	font-size: 20px;
+	box-shadow: -1px 2px 5px 1px #BC7C16,
+            -1px 2px 20px grey inset;
+    font-family: "Montserrat";
+}
+
+.btn_connexion
+{
+	border: solid 2px #ec4c4c;
+	border-radius: 6px;
+	background-color: #ec4c4c;
+	color: white;
+	font-family: Montserrat;
+	width: 31%;
+	display: flex;
+	justify-content: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 100px;
+	font-size: 23px;
+	padding: 1.5%;
+	font-weight: 400;
+}
